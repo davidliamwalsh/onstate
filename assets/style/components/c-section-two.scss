@@ -1,0 +1,77 @@
+.c-section-two {
+  margin-top: 40px;
+  background: $section-bg;
+  height: 247px;
+
+  &__inner {
+    background-image: url("../images/section-two.jpg");
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 217px;
+
+    &--nav {
+      display: flex;
+      color: #fff;
+      justify-content: space-around;
+
+      &__gender {
+        display: flex;
+      }
+
+      &__logo {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        font-size: 6px;
+        padding-top: 1vw;
+
+        span {
+          font-size: 4px;
+        }
+      }
+
+      &__tools {
+        display: flex;
+      }
+
+      &__list {
+        padding: 0 1vw;
+      }
+
+      a {
+        color: #fff;
+        font-size: 5px;
+        text-decoration: none;
+      }
+    }
+
+    &--header {
+      margin: auto;
+      width: 60%;
+      color: #fff;
+      text-align: center;
+      margin-top: 55px;
+      
+    }
+
+    &--operators {
+      display: flex;
+      justify-content: center;
+      margin-top: 55px;
+      
+      &__button {
+        color: #fff;
+        font-size: 5px;
+        border: 1px solid white;
+        margin: 1em;
+        cursor: pointer;
+
+        &--text {
+          padding: 1em 4em;
+        }
+      }
+    }
+  }
+}

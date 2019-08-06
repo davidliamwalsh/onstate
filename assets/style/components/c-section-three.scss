@@ -1,0 +1,25 @@
+.c-section-three {
+  margin-top: 30px;
+  background: $section-bg;
+  height: 247px;
+  
+ &__image {
+  display: flex;
+  justify-content: space-between;
+
+   &--first {
+    background-image: url('../images/section3.jpg');
+    height: 217px;
+    width: 46%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+   &--second {
+    background-image: url('../images/section3.jpg');
+    height: 217px;
+    width: 46%;
+    background-size: cover;
+    background-repeat: no-repeat;
+   }
+ }
+}

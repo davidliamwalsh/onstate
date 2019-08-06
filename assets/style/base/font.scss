@@ -1,4 +1,14 @@
 @font-face {
-  font-family: 'Inter', sans-serif;
-  src: local(Inter);
+  font-family: 'Inter';
+  src: url('Inter-Regular.etf') format('embedded-opentype'), url('Inter-Regular.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-SemiBold.etf') format('embedded-opentype'), url('Inter-SemiBold.otf') format('opentype');
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('Inter-ExtraBold.etf') format('embedded-opentype'), url('Inter-ExtraBold.otf') format('opentype');
 }

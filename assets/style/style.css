@@ -1,6 +1,12 @@
 @font-face {
-  font-family: 'Inter', sans-serif;
-  src: local(Inter); }
+  font-family: 'Inter';
+  src: url("Inter-Regular.etf") format("embedded-opentype"), url("Inter-Regular.otf") format("opentype"); }
+@font-face {
+  font-family: 'Inter';
+  src: url("Inter-SemiBold.etf") format("embedded-opentype"), url("Inter-SemiBold.otf") format("opentype"); }
+@font-face {
+  font-family: 'Inter';
+  src: url("Inter-ExtraBold.etf") format("embedded-opentype"), url("Inter-ExtraBold.otf") format("opentype"); }
 * {
   margin: 0;
   padding: 0;
@@ -10,6 +16,9 @@
 .no-focus-outline a:focus,
 .no-focus-outline button:focus {
   outline: none; }
+
+body {
+  font-family: Inter-Regular; }
 
 @keyframes navLinkFade {
   from {
@@ -35,6 +44,7 @@
     display: flex;
     justify-content: space-between; }
   .c-nav__logo {
+    font-family: Inter-ExtraBold;
     padding-top: 30px;
     height: 20px;
     width: 108px;
@@ -86,9 +96,12 @@
 
 .c-section-one {
   margin-top: 30px; }
-  .c-section-one__title {
+  .c-section-one__title h3 {
+    font-family: Inter-SemiBold;
     font-size: 22px;
     line-height: 30px; }
+  .c-section-one__title--highlight {
+    color: #999999; }
   .c-section-one__body {
     margin-top: 20px;
     font-size: 16px;
@@ -174,4 +187,5 @@
   margin-top: 30px; }
   .c-footer__text {
     padding: 27px 15px;
-    font-size: 26px; }
+    font-size: 26px;
+    font-family: Inter-ExtraBold; }
